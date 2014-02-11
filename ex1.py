@@ -7,8 +7,8 @@ alphabet = list(alphabet)
 
 #os.mkdir("test")
 
-#for letter in alphabet:
-#    os.mkdir(letter)
+[os.mkdir(letter) for letter in alphabet]
+    
 
 #shutil.move("original_files/aexwin.txt", "a")
 
